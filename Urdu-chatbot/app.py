@@ -193,7 +193,7 @@ def handle_user_input(user_question):
             else:
                 st.markdown(bot_template.replace("{{MSG}}", messages.content), ussafe_allow_html=True)
 
-api_key = "AIzaSyAuJKkl00ffWx8oWoctiBAz-7rye3AdwHM"  # Use a placeholder
+api_key = "ENTER API KEY"  
 
 st.title("🎙️RAG Voice Conversation Bot🤖")
 
